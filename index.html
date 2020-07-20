@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Convertor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body{
+            margin-top: 70px;
+            background: linear-gradient(260deg, rgba(34,153,195,1) 0%, rgba(212,45,253,0.8855917366946778) 100%);;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center">Weight Converter</h1>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <input type="number" id="lbsInput" class="form-control form-control-lg" placeholder="Enter Weight in Pounds...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card text-white bg-primary mb-2">
+                        <div class="card-block">
+                            <h4 style="margin-left: 8px;">Grams:</h4>
+                            <div id="gramsOutput" style="margin-left: 8px;" ></div>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-success mb-2">
+                        <div class="card-block">
+                            <h4 style="margin-left: 8px;">Kilograms:</h4>
+                            <div id="KgOutput" style="margin-left: 8px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="card text-white bg-danger mb-2">
+                        <div class="card-block">
+                            <h4 style="margin-left: 8px;">Ounces:</h4>
+                            <div id="OnceOutput" style="margin-left: 8px;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">
+            Designed and Developed By: <a href="https://github.com/SulimanFURC" style="color: white;">Suliman Munawar Khan</a> 
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
